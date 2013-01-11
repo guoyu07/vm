@@ -24,6 +24,15 @@ To run the tests do something like this in the VM::
     cd zeta/Database
     ant
 
+Issues
+======
+
+There is still an issue with the postgres user, which I currently resolve
+manually in the VM, which is far from optimal.
+
+We need to get a "postgres" user without password to work properly, and ensure
+PHP connects properly to that user
+
 
 ..
    Local Variables:
